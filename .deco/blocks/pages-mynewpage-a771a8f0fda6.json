@@ -5,6 +5,17 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "weather/sections/WhatsTheTemperature.tsx",
+        "temperature": {
+          "__resolveType": "weather/loaders/temperature.ts",
+          "long": -38.3801,
+          "lat": -12.3531
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "hero"
       }
     },

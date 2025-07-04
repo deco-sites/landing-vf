@@ -1,0 +1,8 @@
+{
+  "__resolveType": "weather/sections/WhatsTheTemperature.tsx",
+  "temperature": {
+    "__resolveType": "weather/loaders/temperature.ts",
+    "lat": -12.3531,
+    "long": -38.3801
+  }
+}
