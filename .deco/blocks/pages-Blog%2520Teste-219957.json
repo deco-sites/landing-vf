@@ -1,0 +1,46 @@
+{
+  "name": "Blog Teste",
+  "path": "/blog-teste",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/BlogPosts.tsx",
+        "title": "Teste",
+        "posts": [
+          {
+            "tags": [
+              "section",
+              "post",
+              "valter",
+              "deco"
+            ],
+            "title": "Post One",
+            "author": "Valter dos Santos Filho",
+            "excerpt": "Esse é um post criado na tentativa de aprender a usar sections.",
+            "image": "https://assets.decocache.com/landing-vf/5d4c5769-71d9-410c-bfcd-f44a4e3f7c1b/Unsplash-picture.jpg",
+            "date": "04/07/2025"
+          },
+          {
+            "tags": [
+              "section",
+              "post",
+              "valter",
+              "deco"
+            ],
+            "title": "Post Two",
+            "author": "Valter dos Santos Filho",
+            "excerpt": "Mais um post de teste.",
+            "image": "https://assets.decocache.com/landing-vf/2562410f-a102-4d92-8498-0af23385f031/Unsplash-picture.jpg",
+            "date": "04/07/2025"
+          }
+        ],
+        "description": "Seção de Aprendizado"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
