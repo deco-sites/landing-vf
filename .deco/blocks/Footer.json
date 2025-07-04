@@ -1,1 +1,26 @@
-{"__resolveType":"site/sections/Footer.tsx","links":[],"bottomLinks":[],"social":[],"subscribe":{}}
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [
+    {
+      "items": []
+    }
+  ],
+  "bottomLinks": [],
+  "social": [
+    {
+      "network": "Facebook"
+    },
+    {
+      "network": "Facebook"
+    }
+  ],
+  "subscribe": {
+    "title": "Email",
+    "description": "Informe o email",
+    "instructions": "<p>Digite o e-mail</p>"
+  },
+  "logo": {
+    "src": "https://assets.decocache.com/landing-vf/54399799-d5af-4b3c-a729-be8ccc8d51a4/Unsplash-picture.jpg",
+    "alt": "Logo de teste"
+  }
+}
