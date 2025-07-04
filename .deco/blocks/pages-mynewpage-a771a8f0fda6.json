@@ -1,1 +1,13 @@
-{"name":"My New Page","path":"/example-path","sections":[{"__resolveType":"site/sections/Hero.tsx"},{"__resolveType":"site/sections/SimpleTextList.tsx"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "My New Page",
+  "path": "/example-path",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "hero"
+      }
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}
