@@ -1,0 +1,18 @@
+{
+  "__resolveType": "site/sections/BlogPosts.tsx",
+  "posts": [
+    {
+      "tags": [
+        "post",
+        "seção"
+      ],
+      "title": "Esse é um post de teste",
+      "author": "Valter dos Santos Filho",
+      "excerpt": "O post foi construído devido a tentativa de aprender a criar uma seção não global.",
+      "image": "https://assets.decocache.com/landing-vf/5d4c5769-71d9-410c-bfcd-f44a4e3f7c1b/Unsplash-picture.jpg",
+      "date": "04/07/2025"
+    }
+  ],
+  "title": "Seção de Teste",
+  "description": "Teste"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/df9f6706a1d1",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "__resolveType": "blog/loaders/Category.ts",
+    "category": {}
+  }
+}
