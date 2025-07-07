@@ -6,6 +6,7 @@ export interface CTA {
   href: string;
   text: string;
   outline?: boolean;
+  size?: "xs" | "sm" | "md" | "lg";
 }
 
 export interface Props {
@@ -84,8 +85,8 @@ export default function HeroFlats({
                   id={item?.id}
                   href={item?.href}
                   target={item?.href.includes("http") ? "_blank" : "_self"}
-                  class={`font-normal btn btn-primary ${
-                    item.outline && "btn-outline"
+                  class={`font-normal btn btn-primary ${item.outline && "btn-outline"} ${
+                    item.size && `btn-${item.size}`
                   }`}
                 >
                   {item?.text}
