@@ -1,0 +1,12 @@
+{
+  "__resolveType": "site/sections/Post.tsx",
+  "title": "Titulo de Teste",
+  "subtitle": "Subtitulo de Teste",
+  "year": 2025,
+  "author": "Valter",
+  "datetime": "07/07/2025",
+  "photo": "https://assets.decocache.com/landing-vf/5d4c5769-71d9-410c-bfcd-f44a4e3f7c1b/Unsplash-picture.jpg",
+  "post": "Teste, teste, teste, teste",
+  "innerSection": {},
+  "layout": "Grid"
+}

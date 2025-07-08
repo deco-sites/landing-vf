@@ -20,6 +20,8 @@ export default defineApp(async (_req, ctx) => {
 
         {/* Web Manifest */}
         <link rel="manifest" href={asset("/site.webmanifest")}/>
+        
+        <script src="https://unpkg.com/htmx.org@1.7.0"></script>
       </Head>
 
       {/* Rest of Preact tree */}

@@ -2257,6 +2257,11 @@ html {
   --togglehandleborder: 0 0 0 3px var(--fallback-bc,oklch(var(--bc)/1)) inset,
       var(--handleoffsetcalculator) 0 0 3px var(--fallback-bc,oklch(var(--bc)/1)) inset;
 }
+.no-animation {
+  --btn-focus-scale: 1;
+  --animation-btn: 0;
+  --animation-input: 0;
+}
 .tab-border {
   --tab-border: 1px;
 }
@@ -2633,6 +2638,9 @@ html {
 }
 .h-px {
   height: 1px;
+}
+.h-screen {
+  height: 100vh;
 }
 .max-h-\[215px\] {
   max-height: 215px;
