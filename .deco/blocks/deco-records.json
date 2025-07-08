@@ -1,0 +1,9 @@
+{
+  "__resolveType": "site/apps/deco/records.ts",
+  "url": "libsql://landing-vf-decocx.turso.io",
+  "authToken": {
+    "__resolveType": "website/loaders/secret.ts",
+    "name": "DATABASE_AUTH_TOKEN",
+    "encrypted": "c5f247318b78f8d8ab88991cf9fa075c10a9a27122749ea69b41a2a9c7c57e3d7258254484bfaf9fbf106a4f94b8ab582a464bdeae3d24d05f66167a99f9cb8f17a2a1ab39e5926b0c120f6f3a9663cb3683488140c63cde5a5d4070c8aa602547114599d1c74a27dad73e2de25ed1df12777150507173f4a135649e298d0c436b256152253a4d75fb00d09978759cd9a6f74d9a9693220710213814f51970b3e8d2a3bf48264cefd35322a2e941df66ec4866871496501a8d045172e0d6735bfccab11d03b85defdac5cce4d47ae2cc63f17b5f40078b51cccf7cf79b8a035b"
+  }
+}
