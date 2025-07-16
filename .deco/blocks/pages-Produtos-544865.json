@@ -1,0 +1,28 @@
+{
+  "name": "Produtos",
+  "path": "/todos-produtos",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Cabecalho.tsx",
+        "imageLogo": "https://assets.decocache.com/landing-vf/18589f6b-2743-44c0-9cfb-73add7e8f8e7/A-logo-with-a-white-background-featuring-the-text-'Valter-Filho'-centered",
+        "nameClient": "Loja Ficticia",
+        "firstCategory": "Home",
+        "secondCategory": "Produtos",
+        "thirdCategoria": "Contato"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ProductsList.tsx",
+        "title": "Todos os Produtos"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
