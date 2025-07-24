@@ -1,0 +1,17 @@
+{
+  "name": "Teste HTMX",
+  "path": "/teste_htmx",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Htmx.tsx",
+        "count": 0
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -1,5 +1,7 @@
 {
   "__resolveType": "site/sections/ProductsList.tsx",
-  "products": [],
-  "title": "Todos os Produtos"
+  "title": "Todos os Produtos",
+  "products": {
+    "__resolveType": "site/loaders/GetProdutosLoader.tsx"
+  }
 }

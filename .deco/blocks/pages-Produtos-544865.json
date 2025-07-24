@@ -10,14 +10,33 @@
         "nameClient": "Loja Ficticia",
         "firstCategory": "Home",
         "secondCategory": "Produtos",
-        "thirdCategoria": "Contato"
+        "thirdCategoria": "Contato",
+        "srcImage": "Ícone com cor de fundo branca e detalhes em preto com o nome Valter Filho."
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/ProductsList.tsx",
-        "title": "Todos os Produtos"
+        "title": "Todos os Produtos",
+        "products": {
+          "__resolveType": "site/loaders/GetProdutosLoader.tsx"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Cadastro.tsx",
+        "title": "Cadastrar Produto"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rodape.tsx",
+        "author": "Valter Filho",
+        "year": "2025"
       }
     }
   ],
