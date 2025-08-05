@@ -1,12 +1,11 @@
 {
-  "name": "Teste HTMX",
-  "path": "/teste_htmx",
+  "name": "Contador HTMX",
+  "path": "/contador1234",
   "sections": [
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Htmx.tsx",
-        "count": 0
+        "__resolveType": "site/sections/ContadorHtmx.tsx"
       }
     }
   ],

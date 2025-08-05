@@ -24,7 +24,8 @@ export default async function loader(_req: Request): Promise<Products> {
         return products;
 
     } catch (error) {
-        
+
+        console.log("Erro na requisição: ", error);
         return [];
 
     };

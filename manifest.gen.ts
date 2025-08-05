@@ -2,64 +2,78 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
+import * as $$$$$$$$$0 from "./actions/products/registerProduct.ts";
 import * as $$$$$$$$$$$0 from "./apps/deco/blog.ts";
 import * as $$$$$$$$$$$1 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$2 from "./apps/deco/records.ts";
 import * as $$$$$$$$$$$3 from "./apps/deco/weather.ts";
 import * as $$$$$$$$$$$4 from "./apps/site.ts";
 import * as $$$0 from "./loaders/DogFactsLoader.ts";
-import * as $$$1 from "./loaders/GetProdutosLoader.tsx";
+import * as $$$1 from "./loaders/GetProdutosLoader.ts";
 import * as $$$$$$0 from "./sections/BlogPosts.tsx";
 import * as $$$$$$1 from "./sections/Cabecalho.tsx";
 import * as $$$$$$2 from "./sections/Cadastro.tsx";
-import * as $$$$$$3 from "./sections/Count.tsx";
-import * as $$$$$$4 from "./sections/DogFacts.tsx";
-import * as $$$$$$5 from "./sections/Faq.tsx";
-import * as $$$$$$6 from "./sections/Footer.tsx";
-import * as $$$$$$7 from "./sections/GerenciaPerfil.tsx";
-import * as $$$$$$8 from "./sections/Header.tsx";
-import * as $$$$$$19 from "./sections/hero-1.tsx";
-import * as $$$$$$20 from "./sections/hero-2.tsx";
-import * as $$$$$$9 from "./sections/Hero.tsx";
-import * as $$$$$$21 from "./sections/hero2.tsx";
-import * as $$$$$$10 from "./sections/Htmx.tsx";
-import * as $$$$$$11 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$12 from "./sections/Island.tsx";
-import * as $$$$$$13 from "./sections/Logos.tsx";
-import * as $$$$$$14 from "./sections/Post.tsx";
-import * as $$$$$$15 from "./sections/ProductsList.tsx";
-import * as $$$$$$16 from "./sections/Rodape.tsx";
-import * as $$$$$$17 from "./sections/Testimonials.tsx";
-import * as $$$$$$18 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$3 from "./sections/ContadorHtmx.tsx";
+import * as $$$$$$4 from "./sections/ContadorTesteUnico.tsx";
+import * as $$$$$$5 from "./sections/DeleteUserHtmx.tsx";
+import * as $$$$$$6 from "./sections/DogFacts.tsx";
+import * as $$$$$$7 from "./sections/Faq.tsx";
+import * as $$$$$$8 from "./sections/Filter.tsx";
+import * as $$$$$$9 from "./sections/Footer.tsx";
+import * as $$$$$$10 from "./sections/GerenciaPerfil.tsx";
+import * as $$$$$$11 from "./sections/GetUsersHtmx.tsx";
+import * as $$$$$$12 from "./sections/Header.tsx";
+import * as $$$$$$24 from "./sections/hero-1.tsx";
+import * as $$$$$$25 from "./sections/hero-2.tsx";
+import * as $$$$$$13 from "./sections/Hero.tsx";
+import * as $$$$$$26 from "./sections/hero2.tsx";
+import * as $$$$$$14 from "./sections/ImageWithParagraph.tsx";
+import * as $$$$$$15 from "./sections/Island.tsx";
+import * as $$$$$$16 from "./sections/Logos.tsx";
+import * as $$$$$$17 from "./sections/Post.tsx";
+import * as $$$$$$18 from "./sections/PostUserHtmx.tsx";
+import * as $$$$$$19 from "./sections/ProductsList.tsx";
+import * as $$$$$$20 from "./sections/Rodape.tsx";
+import * as $$$$$$21 from "./sections/Testimonials.tsx";
+import * as $$$$$$22 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$23 from "./sections/UpdateUsersHtmx.tsx";
 
 const manifest = {
   "loaders": {
     "site/loaders/DogFactsLoader.ts": $$$0,
-    "site/loaders/GetProdutosLoader.tsx": $$$1,
+    "site/loaders/GetProdutosLoader.ts": $$$1,
   },
   "sections": {
     "site/sections/BlogPosts.tsx": $$$$$$0,
     "site/sections/Cabecalho.tsx": $$$$$$1,
     "site/sections/Cadastro.tsx": $$$$$$2,
-    "site/sections/Count.tsx": $$$$$$3,
-    "site/sections/DogFacts.tsx": $$$$$$4,
-    "site/sections/Faq.tsx": $$$$$$5,
-    "site/sections/Footer.tsx": $$$$$$6,
-    "site/sections/GerenciaPerfil.tsx": $$$$$$7,
-    "site/sections/Header.tsx": $$$$$$8,
-    "site/sections/hero-1.tsx": $$$$$$19,
-    "site/sections/hero-2.tsx": $$$$$$20,
-    "site/sections/Hero.tsx": $$$$$$9,
-    "site/sections/hero2.tsx": $$$$$$21,
-    "site/sections/Htmx.tsx": $$$$$$10,
-    "site/sections/ImageWithParagraph.tsx": $$$$$$11,
-    "site/sections/Island.tsx": $$$$$$12,
-    "site/sections/Logos.tsx": $$$$$$13,
-    "site/sections/Post.tsx": $$$$$$14,
-    "site/sections/ProductsList.tsx": $$$$$$15,
-    "site/sections/Rodape.tsx": $$$$$$16,
-    "site/sections/Testimonials.tsx": $$$$$$17,
-    "site/sections/Theme/Theme.tsx": $$$$$$18,
+    "site/sections/ContadorHtmx.tsx": $$$$$$3,
+    "site/sections/ContadorTesteUnico.tsx": $$$$$$4,
+    "site/sections/DeleteUserHtmx.tsx": $$$$$$5,
+    "site/sections/DogFacts.tsx": $$$$$$6,
+    "site/sections/Faq.tsx": $$$$$$7,
+    "site/sections/Filter.tsx": $$$$$$8,
+    "site/sections/Footer.tsx": $$$$$$9,
+    "site/sections/GerenciaPerfil.tsx": $$$$$$10,
+    "site/sections/GetUsersHtmx.tsx": $$$$$$11,
+    "site/sections/Header.tsx": $$$$$$12,
+    "site/sections/hero-1.tsx": $$$$$$24,
+    "site/sections/hero-2.tsx": $$$$$$25,
+    "site/sections/Hero.tsx": $$$$$$13,
+    "site/sections/hero2.tsx": $$$$$$26,
+    "site/sections/ImageWithParagraph.tsx": $$$$$$14,
+    "site/sections/Island.tsx": $$$$$$15,
+    "site/sections/Logos.tsx": $$$$$$16,
+    "site/sections/Post.tsx": $$$$$$17,
+    "site/sections/PostUserHtmx.tsx": $$$$$$18,
+    "site/sections/ProductsList.tsx": $$$$$$19,
+    "site/sections/Rodape.tsx": $$$$$$20,
+    "site/sections/Testimonials.tsx": $$$$$$21,
+    "site/sections/Theme/Theme.tsx": $$$$$$22,
+    "site/sections/UpdateUsersHtmx.tsx": $$$$$$23,
+  },
+  "actions": {
+    "site/actions/products/registerProduct.ts": $$$$$$$$$0,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,

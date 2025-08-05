@@ -3,7 +3,6 @@
 // This file is automatically updated during development when running `dev.ts`.
 
 import * as $_app from "./routes/_app.tsx";
-import * as $post from "./routes/post.tsx";
 import * as $CategoriasMobile from "./islands/CategoriasMobile.tsx";
 import * as $Formulario from "./islands/Formulario.tsx";
 import * as $MenuMobile from "./islands/MenuMobile.tsx";
@@ -13,7 +12,6 @@ import { type Manifest } from "$fresh/server.ts";
 const manifest = {
   routes: {
     "./routes/_app.tsx": $_app,
-    "./routes/post.tsx": $post,
   },
   islands: {
     "./islands/CategoriasMobile.tsx": $CategoriasMobile,

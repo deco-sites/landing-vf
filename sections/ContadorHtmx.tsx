@@ -1,27 +1,25 @@
 import { useSection } from "deco/hooks/useSection.ts";
 
-export default function Count({ count = 0 }: { count: number }) {
+export default function ContadorHtmx({ count = 0 }) {
   return (
-    <div class="container h-screen flex items-center justify-center gap-4">
+    <section class="flex gap-4 items-center justify-center">
       <button
         hx-get={useSection({ props: { count: count - 1 } })}
         hx-target="closest section"
         hx-swap="outerHTML"
-        class="btn btn-sm btn-circle btn-outline no-animation"
-        type="button"
+        class="btn"
       >
-        <span>-</span>
+        -
       </button>
-      <span>{count}</span>
+      <strong>{count}</strong>
       <button
         hx-get={useSection({ props: { count: count + 1 } })}
         hx-target="closest section"
         hx-swap="outerHTML"
-        class="btn btn-sm btn-circle btn-outline no-animation"
-        type="button"
+        class="btn"
       >
-        <span>+</span>
+        +
       </button>
-    </div>
+    </section>
   );
 }

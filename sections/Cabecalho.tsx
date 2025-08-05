@@ -25,7 +25,8 @@ export interface Props {
     thirdCategoria: string;
 };
 
-export default function Cabecalho({imageLogo, srcImage, firstCategory, secondCategory, thirdCategoria} : Props) {
+export default function Cabecalho({ imageLogo, srcImage, firstCategory, secondCategory, thirdCategoria }: Props) {
+    
     return (
 
         <header 
@@ -33,7 +34,7 @@ export default function Cabecalho({imageLogo, srcImage, firstCategory, secondCat
         >
 
             <div class="col-start-1 row-start-1 pl-7 md:pl-5">
-                {imageLogo && (<Image src={ imageLogo } alt={` Imagem da ${srcImage} ` } height={150} width={150} class="rounded w-16 h-16 md:w-[100px] md:h-[90px]" />)}
+                {imageLogo && (<Image src={ imageLogo } alt={`Imagem da ${srcImage}`} height={150} width={150} class="rounded w-16 h-16 md:w-[100px] md:h-[90px]" />)}
             </div>
 
             <MenuMobile firstCategory={firstCategory} secondCategory={secondCategory} thirdCategoria={thirdCategoria} />

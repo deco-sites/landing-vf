@@ -1,19 +1,13 @@
+import { invoke } from "site/runtime.ts";
+import { NewProduct } from "../actions/products/registerProduct.ts";
+
 export interface FormProps {
    title: string;
 }
 
-export interface NewProduct {
-    id: number;
-    title: string;
-    price: number;
-    description: string;
-    category: string;
-    image: string;
-}
-
 export default function Formulario({ title }: FormProps) {
 
-    async function showValuesInputs(event: Event) {
+    async function viewDataForm(event: Event) {
 
         event.preventDefault();
 
@@ -44,37 +38,14 @@ export default function Formulario({ title }: FormProps) {
             image: String(formData.get("image"))
         };
 
-        alert(`Id: ${product.id}\nNome: ${product.title}\nPreço: ${product.price}\nDescrição: ${product.description}\nCategoria: ${product.category}\nEndereço da imagem: ${product.image}`);
+        const statusRequest = await invoke.site.actions.products.registerProduct(product);
 
-        await registerProduct(product);
-        
-    };
-    
-    async function registerProduct(product: NewProduct) {
-
-        try {
-
-            const response = await fetch("https://fakestoreapi.com/products", {
-                method: "POST",
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(product)
-            });
-
-            const result = await response.json();
-
-            const status = response.status;
-
-            alert(`Cadastro do produto realizado!\nStatus: ${status}\nId: ${result.id}`);
-
-            console.log("Resultado do POST: ", result);
-
-        } catch(error) {
-
-            alert(`Erro no cadastro do produto!`)
-            console.log(`Erro no cadastro do produto${error}`);
-
+        if (statusRequest === 201) {
+            alert(`Cadastro do produto realizado!\nStatus: ${statusRequest}.`);
+        } else {
+            alert(`Erro no cadastro do produto!\nStatus: ${statusRequest}.`);
         };
-       
+
     };
 
     return (
@@ -85,7 +56,7 @@ export default function Formulario({ title }: FormProps) {
                 <h2 class="text-center text-2xl md:text-4xl lg:text-5xl">{title}</h2>
             </div>
 
-            <form onSubmit={showValuesInputs}>
+            <form onSubmit={viewDataForm}>
 
                     <div class="w-full grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
 

@@ -6,7 +6,7 @@ export interface RodapeProps {
     /**
      * @title Ano de autoria:
      */
-    year: string
+    year: string;
 }
 
 export default function Rodape({ author, year }: RodapeProps) {

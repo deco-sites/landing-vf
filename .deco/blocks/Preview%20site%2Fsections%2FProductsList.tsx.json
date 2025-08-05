@@ -2,6 +2,6 @@
   "__resolveType": "site/sections/ProductsList.tsx",
   "title": "Todos os Produtos",
   "products": {
-    "__resolveType": "site/loaders/GetProdutosLoader.tsx"
+    "__resolveType": "site/loaders/GetProdutosLoader.ts"
   }
 }
