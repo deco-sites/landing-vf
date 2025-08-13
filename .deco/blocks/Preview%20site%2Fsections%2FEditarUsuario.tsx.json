@@ -1,0 +1,10 @@
+{
+  "__resolveType": "site/sections/EditarUsuario.tsx",
+  "title": "Editar Usuário",
+  "user": {
+    "__resolveType": "site/loaders/GetUserLoader.ts",
+    "address": {},
+    "name": {},
+    "id": 1
+  }
+}

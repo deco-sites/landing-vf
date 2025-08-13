@@ -4,6 +4,8 @@
 
 import * as $_app from "./routes/_app.tsx";
 import * as $CategoriasMobile from "./islands/CategoriasMobile.tsx";
+import * as $EditFormUsuario from "./islands/EditFormUsuario.tsx";
+import * as $EditFormulario from "./islands/EditFormulario.tsx";
 import * as $Formulario from "./islands/Formulario.tsx";
 import * as $MenuMobile from "./islands/MenuMobile.tsx";
 import * as $MyIsland from "./islands/MyIsland.tsx";
@@ -15,6 +17,8 @@ const manifest = {
   },
   islands: {
     "./islands/CategoriasMobile.tsx": $CategoriasMobile,
+    "./islands/EditFormUsuario.tsx": $EditFormUsuario,
+    "./islands/EditFormulario.tsx": $EditFormulario,
     "./islands/Formulario.tsx": $Formulario,
     "./islands/MenuMobile.tsx": $MenuMobile,
     "./islands/MyIsland.tsx": $MyIsland,

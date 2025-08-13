@@ -1,0 +1,7 @@
+{
+  "__resolveType": "site/sections/ListaUsuarios.tsx",
+  "users": {
+    "__resolveType": "site/loaders/GetUsersLoader.ts"
+  },
+  "title": "Lista de Usuários"
+}

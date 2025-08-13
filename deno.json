@@ -90,7 +90,8 @@
   "nodeModulesDir": false,
   "compilerOptions": {
     "jsx": "react-jsx",
-    "jsxImportSource": "preact"
+    "jsxImportSource": "preact",
+    "lib": ["dom", "dom.iterable", "deno.ns", "deno.window", "esnext"]
   },
   "lock": false
 }

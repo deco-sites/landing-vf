@@ -9,29 +9,33 @@ import { AppContext } from "../../apps/site.ts";
     image: string;
 }
     
-export default async function registerProduct(props: NewProduct, _req: Request, _ctx: AppContext): Promise<number> {
+export default async function registerProduct(product: NewProduct, _req: Request, _ctx: AppContext): Promise<boolean> {
 
     try {
 
         const response = await fetch("https://fakestoreapi.com/products", {
             method: "POST",
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(props)
+            body: JSON.stringify(product)
         });
 
-        const result = await response.json();
+        if (response.ok === true) {
 
-        const status = response.status;
+            const result = await response.json();
+            console.log("Cadastro do produto feito com sucesso: ", result);
+            return response.ok;
 
-        console.log("Resultado do POST: ", result);
+        } else {
+            
+            console.log("Falha no cadastro do produto.");
+            return false;
 
-        return status;
+        };     
 
     } catch(error) {
 
-        console.log(`Erro no cadastro do produto${error}`);
-
-        return 400;
+        console.log("Erro no cadastro do produto: ", error);
+        return false;
 
     };
        
