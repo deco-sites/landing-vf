@@ -29,7 +29,7 @@ export default function UpdateUsersHtmx({ title }: PutUserProps) {
                 </div>
 
                 <div class="w-full flex justify-center mt-4">
-                    <button class="border rounded bg-black w-1/4 p-1 text-white" type="submit">Cadastrar</button>
+                    <button class="border rounded bg-black w-1/4 p-1 text-white" type="submit">Editar</button>
                 </div>
 
             </form>
