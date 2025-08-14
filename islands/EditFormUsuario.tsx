@@ -58,7 +58,7 @@ function createInput(nameLabel: string, nameInput: string, type: string, idInput
     return (
         <div class="flex flex-col">
             <label htmlFor={htmlFor} class="text-base md:text-lg lg:text-2xl">{nameLabel}</label>
-            <input type={type} name={nameInput} id={idInput} value={valueState.value} onChange={e => valueState.value = e.currentTarget.value} required class="border border-gray-300 rounded focus:outline-none md:h-7 lg:h-9" />
+            <input type={type} name={nameInput} id={idInput} value={valueState.value} onInput={e => valueState.value = e.currentTarget.value} required class="border border-gray-300 rounded focus:outline-none md:h-7 lg:h-9" />
         </div>
     );
 
