@@ -8,7 +8,7 @@ export interface EditarUsuarioProps {
      * @description Digite o título da seção
      */
     title: string;
-    user?: User;
+    user?: User | null;
 }
 
 export default function EditarUsuario({ title, user }: EditarUsuarioProps) {

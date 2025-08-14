@@ -1,4 +1,4 @@
-export interface PostUserProps {
+export interface PutUserProps {
     /**
      * @title Título:
      * @description Informe o título da página
@@ -6,7 +6,7 @@ export interface PostUserProps {
     title: string;
 }
 
-export default function UpdateUsersHtmx({ title }: PostUserProps) {
+export default function UpdateUsersHtmx({ title }: PutUserProps) {
 
     return (
 

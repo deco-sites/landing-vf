@@ -4,7 +4,7 @@ import { invoke } from "site/runtime.ts";
 
 export interface FormProps {
    title: string;
-   user?: User;
+   user?: User | null;
 }
 
 async function sendUserForm(event: Event) {
@@ -77,14 +77,6 @@ export default function EditFormUsuario({ title, user }: FormProps) {
     const firstname = useSignal(String(user?.name.firstname));
     const lastname = useSignal(String(user?.name.lastname));
     const phone = useSignal(String(user?.phone));
-
-    if (!user) {
-
-        return (
-            <p class="text-center">Usuário não encontrado.</p>
-        );
-        
-    };
 
     return (
 

@@ -19,15 +19,16 @@ export interface User {
 export interface LoaderProps {
     /**
      * @title ID do usuário:
+     * @minimum 1
      */
-    id: number;
+    idUser: number;
 }
 
-export default async function loader({ id }: LoaderProps, _req: Request): Promise<User | null> {
+export default async function loader({ idUser }: LoaderProps, _req: Request): Promise<User | null> {
 
     try {
 
-        const response = await fetch(`https://fakestoreapi.com/users/${id}`);
+        const response = await fetch(`https://fakestoreapi.com/users/${idUser}`);
 
         if (response.ok) {
 

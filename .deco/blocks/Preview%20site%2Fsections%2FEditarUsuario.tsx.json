@@ -5,6 +5,7 @@
     "__resolveType": "site/loaders/GetUserLoader.ts",
     "address": {},
     "name": {},
-    "id": 8
+    "id": 8,
+    "idUser": 1
   }
 }
