@@ -51,7 +51,7 @@ export default function ProductList({ products, title }: ProductsListProps) {
         <section class="w-4/5 m-auto grid grid-cols-1 justify-items-center gap-4">
 
             <div class="mt-4 mb-5">
-                <h1 class="text-3xl md:text-5xl lg:text-6xl">{title}</h1>
+                <h1 class="text-3xl md:text-5xl lg:text-6xl text-center">{title}</h1>
             </div>
 
             <ul class="grid grid-cols-2 gap-4 mb-3 md:grid-cols-3 xl:grid-cols-4 ">

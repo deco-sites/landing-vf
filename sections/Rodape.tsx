@@ -15,7 +15,7 @@ export default function Rodape({ author, year }: RodapeProps) {
 
         <footer>
             <div class="w-full bg-black h-36 flex justify-center items-center">
-                <p class="text-white">Desenvolvido por {author}, {year}.</p>
+                <p class="text-white text-center">Desenvolvido por {author}, {year}.</p>
             </div>
         </footer>
 

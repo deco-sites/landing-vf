@@ -4,7 +4,7 @@ import { invoke } from "site/runtime.ts";
 
 export interface FormProps {
    title: string;
-   user?: User | null;
+   user?: User;
 }
 
 async function sendUserForm(event: Event) {
